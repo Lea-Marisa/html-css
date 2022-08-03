@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e afora vou gerenciar repositórios!
 
-<a href="https://lea-marisa.github.io/html-css/desafio010">Executar o desfio 10</a>
+<a href="https://lea-marisa.github.io/html-css/desafio010/android.html">Executar o desfio 10</a>
