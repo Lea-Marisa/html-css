@@ -1,0 +1,10 @@
+Repositório local/remoto
+Guardar arquivos -> versões anteriores
+
+Gerenciador de versões: guarda todas as versões de códigos no computador => GIT (repositório local)
+Criado pelo mesmo criador do Linux.
+
+Servidor para backup das versões na nuvem => GITHUB (repositório remoto -> "push")
+Pertence à Microsoft
+
+Repositório local para o respositório remoto para salvar as versões.

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body {
+            font-family: 'Work Sans';
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medudas Relativas
+            em, ex, rem, vw, vh, %
+            Recomendação da W3C é usar apenas px e em
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            font-weight: 200;
+            /*lighter normal bold bolder
+            é possível uma nuance maior usando números: 100, 200...
+            fontes mais comuns como Arial e Times não têm muitas variações de peso*/
+            font-style: italic;
+            
+        }
+
+        h1{
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: oblique;
+
+            /* propriedade shorthand font na seguinte ordem:
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Arial';
+        }
+
+        h2{
+            font: bold 2em 'Arial';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ratione dolor, excepturi commodi omnis ullam ipsam obcaecati ex nulla nisi ducimus quod consequuntur quisquam rem autem neque dolores vero aut!</p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis non at dolores, dolore amet quisquam ut? Quis culpa obcaecati nihil dignissimos ab, hic veniam, alias iste ad perferendis reprehenderit rerum!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quibusdam distinctio facilis autem quasi. Doloremque debitis similique, reiciendis nesciunt mollitia molestias itaque, ipsa hic velit iure sequi voluptatibus inventore porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, architecto unde animi at ipsum eligendi fuga dolor accusantium molestias deserunt fugiat. Eius et illum asperiores sapiente magnam a incidunt accusamus!
+
+    <h2>Subtítulo do exercídio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ratione corporis, exercitationem ullam tenetur vel laudantium nesciunt illum autem voluptatum cumque placeat, tempora quis maxime? Molestiae eum quod pariatur praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique error distinctio voluptatum itaque. Labore ipsum temporibus consequuntur tenetur, illum inventore! Voluptate quaerat inventore, quibusdam nisi nesciunt obcaecati. Recusandae, dicta!</p>
+
+</body>
+</html>
