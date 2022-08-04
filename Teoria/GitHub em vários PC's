@@ -1,0 +1,22 @@
+Estou em outro computador e quero usar um trabalho meu.
+Precisa ter:
+- navegador
+- Visual Studio Code
+- Git
+- Github Desktop
+
+Github Desktop > File > Options > Accounts > fazer login: meus repositórios estarão lá.
+Escolher o repositório e clicar em clonar; escolher a pasta e clonar.
+
+*** Procedimento em caso de erro: File > Options > Git: clica no e-mail do cara, clica no email temporário e clica no botão...
+
+
+Para sair:
+1. Deixar somente o Github Desktop aberto > Repository > Remove > Marcar para enviar para lixeira e clicar no botão.
+2. File > Options > Sign out
+3. File > Options > GIT: apagar nome e email e salvar
+4. Esvaziar a lixeira.
+
+
+
+
