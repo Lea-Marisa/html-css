@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores soluta officia delectus reiciendis ab labore ratione! Voluptatum ab repudiandae aliquam placeat eum repellat minima? Nesciunt deleniti error non amet quidem.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint distinctio animi assumenda possimus repudiandae dignissimos! Ipsum, praesentium dicta tempore optio voluptate eligendi doloremque odit nulla, culpa et, asperiores eos est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas repellendus quod sint quidem? Voluptatibus nihil nesciunt reiciendis unde. Assumenda sapiente architecto ex fugit ea tempora autem odio suscipit esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur iste provident, sit expedita quidem ex earum! A doloremque nam sequi nostrum rem quisquam minima asperiores voluptatibus, saepe ab consequatur.</p>
+    
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima fuga excepturi eveniet doloribus reiciendis adipisci aperiam dicta quis illum nobis et aut ipsum, voluptatibus consequuntur neque ad, quas soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit</p>">  <!--"name" serve para usar no target da tag <a> como acima para carregar o link dentro do frame. MUITO INTERESSANTE ESSE! "srcdoc" serve para inserir um documento html-->
+        <p>Infelizmente, seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima fuga excepturi eveniet doloribus reiciendis adipisci aperiam dicta quis illum nobis et aut ipsum, voluptatibus consequuntur neque ad, quas soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eos, aliquam officiis amet accusamus, excepturi velit reiciendis vitae placeat ab nulla atque soluta nostrum veniam ratione laudantium. Distinctio, nisi aliquid.</p>
+</body>
+</html>
