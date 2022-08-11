@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1> 
+    
+    <!-- usar o MÉTODO GET = quando os dados não forem sensíveis; para url compartilhável; formulários com até 3 mil bytes.
+            usar o MÉTODO POST = para dados sensíveis (https para senhas, dados bancários...); dados não apareçam na url; envio de dados acima 3 mil bytes; para envio de arquivos.
+    -->
+
+    <form action="cadastro.php" method="post"> <!-- arquivo onde os dados do formulário serão enviados; neste caso, um arquivo Python - ISSO NÃO SERÁ EXPLICADO NESTE CURSO! -->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p> <!-- "name" é mais útil para HTML e PHP e "id" mais útil para JAVASCRIPT e para uso do label (esse último, associa o input ao label, ou seja, criar uma relação entre a palavra e o objeto caixa de texto)-->
+        <p><label for="isobrenome">Sobrenome:</label>
+             <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    
+</body>
+</html>
